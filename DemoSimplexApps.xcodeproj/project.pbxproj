@@ -209,7 +209,7 @@
 				CD6B89A823C8E7E000A80DC6 /* Sources */,
 				CD6B89A923C8E7E000A80DC6 /* Frameworks */,
 				CD6B89AA23C8E7E000A80DC6 /* Resources */,
-				5DDA5256932CD8643AA6D91F /* [CP] Embed Pods Frameworks */,
+				D65B354679D59C0E07BB89DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,7 +247,7 @@
 				CD6B89C923C8E7E800A80DC6 /* Sources */,
 				CD6B89CA23C8E7E800A80DC6 /* Frameworks */,
 				CD6B89CB23C8E7E800A80DC6 /* Resources */,
-				C09A0E474B9A2700657777AB /* [CP] Embed Pods Frameworks */,
+				5D28FE36543FFC36A9949C5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,21 +353,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DDA5256932CD8643AA6D91F /* [CP] Embed Pods Frameworks */ = {
+		5D28FE36543FFC36A9949C5F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps/Pods-DemoSimplexApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps-DemoSimplexAppsUITests/Pods-DemoSimplexApps-DemoSimplexAppsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps/Pods-DemoSimplexApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps-DemoSimplexAppsUITests/Pods-DemoSimplexApps-DemoSimplexAppsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps/Pods-DemoSimplexApps-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps-DemoSimplexAppsUITests/Pods-DemoSimplexApps-DemoSimplexAppsUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8AC71D52895E50210AEC8104 /* [CP] Check Pods Manifest.lock */ = {
@@ -414,21 +414,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C09A0E474B9A2700657777AB /* [CP] Embed Pods Frameworks */ = {
+		D65B354679D59C0E07BB89DD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps-DemoSimplexAppsUITests/Pods-DemoSimplexApps-DemoSimplexAppsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps/Pods-DemoSimplexApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps-DemoSimplexAppsUITests/Pods-DemoSimplexApps-DemoSimplexAppsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps/Pods-DemoSimplexApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps-DemoSimplexAppsUITests/Pods-DemoSimplexApps-DemoSimplexAppsUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSimplexApps/Pods-DemoSimplexApps-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

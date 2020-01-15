@@ -15,11 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBU-Dw-kV4">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBU-Dw-kV4">
                                 <rect key="frame" x="20" y="539" width="374" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="zLs-pX-SU3"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -28,14 +26,9 @@
                                     <segue destination="mQs-8N-bEe" kind="show" id="2mK-ec-lkd"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-12-23 at 1.16.05 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ucw-Cf-8Na">
-                                <rect key="frame" x="76.5" y="135" width="261" height="340"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhh-m3-ViK">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhh-m3-ViK">
                                 <rect key="frame" x="20" y="635" width="374" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="6WY-0R-L8C"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -44,20 +37,12 @@
                                     <segue destination="cUB-ss-WMX" kind="show" id="WWC-CG-N9g"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-01-13 at 10.59.14 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Ucw-Cf-8Na">
+                                <rect key="frame" x="38" y="171" width="338" height="385"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="OBU-Dw-kV4" firstAttribute="leading" secondItem="Hft-Ox-CMh" secondAttribute="leadingMargin" id="9AB-bW-mWK"/>
-                            <constraint firstItem="OBU-Dw-kV4" firstAttribute="leading" secondItem="Mhh-m3-ViK" secondAttribute="leading" id="DEp-9g-TOJ"/>
-                            <constraint firstItem="Ucw-Cf-8Na" firstAttribute="centerX" secondItem="OBU-Dw-kV4" secondAttribute="centerX" id="OxM-8N-fUS"/>
-                            <constraint firstItem="OBU-Dw-kV4" firstAttribute="trailing" secondItem="Hft-Ox-CMh" secondAttribute="trailingMargin" id="S8r-fa-g7i"/>
-                            <constraint firstItem="OBU-Dw-kV4" firstAttribute="trailing" secondItem="Mhh-m3-ViK" secondAttribute="trailing" id="VqE-tG-Eg1"/>
-                            <constraint firstItem="Mhh-m3-ViK" firstAttribute="top" secondItem="OBU-Dw-kV4" secondAttribute="bottom" constant="36" id="WGJ-Ga-qb1"/>
-                            <constraint firstItem="OBU-Dw-kV4" firstAttribute="top" secondItem="Ucw-Cf-8Na" secondAttribute="bottom" constant="64" id="cFF-Jv-9pF"/>
-                            <constraint firstItem="Jlh-2u-Mre" firstAttribute="bottom" secondItem="Mhh-m3-ViK" secondAttribute="bottom" constant="113" id="j9U-v5-ePz"/>
-                            <constraint firstItem="Ucw-Cf-8Na" firstAttribute="top" secondItem="Jlh-2u-Mre" secondAttribute="top" constant="135" id="jWi-PR-Ywn"/>
-                            <constraint firstItem="Ucw-Cf-8Na" firstAttribute="leading" secondItem="Jlh-2u-Mre" secondAttribute="leading" constant="76.5" id="uj1-qf-1N9"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Jlh-2u-Mre"/>
                     </view>
                     <navigationItem key="navigationItem" id="bb0-GC-Ojs"/>
@@ -815,7 +800,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2019-12-23 at 1.16.05 PM" width="373" height="529"/>
+        <image name="Screen Shot 2020-01-13 at 10.59.14 AM" width="405" height="336"/>
         <image name="YPaivH7J" width="512" height="512"/>
         <image name="arrow.right" catalog="system" width="64" height="48"/>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="64" height="52"/>
